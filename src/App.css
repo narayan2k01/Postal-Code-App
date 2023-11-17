@@ -111,4 +111,10 @@ button:disabled {
   padding: 10px 30px;
 }
 
+.map-container > iframe{
+ height: 350px;
+ width: 90%;
+ border-radius: 170px;
+}
+
   }

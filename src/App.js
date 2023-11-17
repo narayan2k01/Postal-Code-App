@@ -62,12 +62,8 @@ const App = () => {
             onChange={handleInputChange}
           />
         </label>
-        {/* <button type="submit" disabled={loading}>
-          {loading ? 'Fetching Information' : 'Search'}
-        </button> */}
 
-         <button type="submit" class="btn btn-primary" disabled={loading}>{loading ? 'Fetching Information' : 'Search'}</button> 
-
+         <button type="submit" class="btn btn-primary" disabled={loading}>{loading ? 'Fetching Information' : 'Search'}</button>
         {locationInfo && (
           <button onClick={handleClear} className="clear-button">
             Clear
