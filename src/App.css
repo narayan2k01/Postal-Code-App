@@ -1,6 +1,6 @@
-*{
+/* *{
   background: linear-gradient(to right, #c9d6ff, #e2e2e2); 
-}
+} */
 
 @media screen and (max-width: 700px) {
 
@@ -51,32 +51,48 @@ label {
 input {
   margin-left: 10px;
   padding: 10px;
-  
+  background-color: white;
   border-radius: 5px;
 }
 
 button {
   margin-left: 10px;
   cursor: pointer;
-  padding: 10px 10px;
+  height: 47.2px;
+  width: fit-content;
   color: black;
-  border: none;
-  
   border-radius: 4px;
-  transition: all 0.5s ease-out;
+  box-shadow: 0px 0px 8px rgba(128, 128, 128, 0.351);
+  border: none;
+  background-color: white;
+  position: relative;
+  bottom: 2px ;
+  font-weight: 700;
   
 }
-button:hover {
-  background-position: 100%;
-  /* color: #c266d3; */
-  background-image: linear-gradient( #f7f7f7 0%, #eed9f5 51%, rgb(229, 239, 211) 100%);
+.btn:hover {
+ background-color: white; 
+color: blue;
+scale: 1.01;
+transition: left 0.5s ease-out;
+  
+ 
 }
 
 .clear-button {
-  padding: 10px 10px;
+  padding: 6px 20px;
+  position: relative;
+  top: 1px;
+  height: 47.2px;
 
 }
 
+.clear-button:hover {
+  background-color: red; 
+ color: white;
+ scale: 1.01;
+ transition: left 0.5s ease-out;
+}
 .error {
   color: red;
   margin-top: 10px;
