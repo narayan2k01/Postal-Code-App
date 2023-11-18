@@ -118,7 +118,7 @@ button:disabled {
 .map-container > iframe{
  height: 350px;
  width: 90%;
- border-radius: 170px;
+ border-radius: 15px;
 }
 
   }
