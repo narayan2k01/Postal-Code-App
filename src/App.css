@@ -29,12 +29,12 @@ button {
   width: fit-content;
   color: black;
   border-radius: 4px;
-  box-shadow: 0px 0px 8px rgba(128, 128, 128, 0.351);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.351);
   border: none;
   background-color: white;
   position: relative;
-  bottom: 2px ;
-  font-weight: 700;
+  bottom: 1px ;
+  font-weight: 600;
   
 }
 .btn:hover {
@@ -45,10 +45,11 @@ transition: left 0.5s ease-out;
 }
 
 .clear-button {
-  padding: 6px 20px;
+  padding: 2px 30px;
   position: relative;
   top: 1px;
   height: 47.2px;
+  border: 1px solid black;
 
 }
 
@@ -73,7 +74,7 @@ color:#0059b8
 
 .map-container>iframe {
   width: 90%;
-  height: 350px;
+  height: 360px;
   border: 1px solid black;
   margin: 10px 10px 10px 10px;
   border-radius: 15px;
@@ -85,28 +86,31 @@ button:disabled {
   background-color: #ccc;
   color: #555;
 }
-@media (max-width: 427px) {
+@media (max-width: 470px) {
   label{
     font-size: 22px;
     color: #0059b8;
-    
   }
+
   input{
     border-radius: 30px;
     padding: 20px 50px;
     font-size: 20px;
     margin-top: 10px;
   }
+
   button{
     margin-top: 20px;
     font-size: 20px;
     padding: 10px 30px;
   }
+
   .clear-button{
     position: relative;
     top: 11px;
 
   }
+
 .btn{
   padding: 10px 30px;
 }
