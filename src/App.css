@@ -85,7 +85,7 @@ button:disabled {
   background-color: #ccc;
   color: #555;
 }
-@media (max-width: 425px) {
+@media (max-width: 427px) {
   label{
     font-size: 22px;
     color: #0059b8;
